@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def nao_entre_em_panico():
 
-    primos = "Alunos, nao esquecam de responder a pergunta no chat<br> para nao ficar com falta!"
+    primos = "Preados alunos, nao esquecam de responder a pergunta no chat<br> para nao ficar com falta!"
 
     return primos
 
